@@ -14,5 +14,9 @@ eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 eksctl delete cluster --name demo-cluster --region us-east-1
 ```
 
+## configire Kubeconfig
 
+```
+aws eks update-kubeconfig --name demoeks-cluster --region us-east-1
+```
 
